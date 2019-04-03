@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+numpy
+
+[tf]
+tensorflow!=1.7.*,!=1.8.*,>=1.4.0
+
+[tf_gpu]
+tensorflow-gpu!=1.7.*,!=1.8.*,>=1.4.0
