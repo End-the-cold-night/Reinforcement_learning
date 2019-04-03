@@ -1,5 +1,3 @@
-import sys
-import os
 from Reinforcement_learning import Sarsa
 from Reinforcement_learning import Maze
 

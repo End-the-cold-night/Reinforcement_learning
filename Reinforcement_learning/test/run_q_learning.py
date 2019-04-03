@@ -1,8 +1,3 @@
-import sys
-import os
-sys.path.append(os.path.abspath('.')[0:len(os.path.abspath('.'))-4] + "models")
-#import Reinforcement_learning as RL
-#from ..models.Q_Learning import Q_Learning
 from Reinforcement_learning import Q_Learning
 from Reinforcement_learning import Maze
 
