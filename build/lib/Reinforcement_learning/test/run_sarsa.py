@@ -1,6 +1,4 @@
-import sys
-import os
-from Reinforcement_learning import Sarse
+from Reinforcement_learning import Sarsa
 from Reinforcement_learning import Maze
 
 def update():

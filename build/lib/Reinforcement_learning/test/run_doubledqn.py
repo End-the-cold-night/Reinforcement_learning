@@ -1,4 +1,4 @@
-from Reinforcement_learning import DQN
+from Reinforcement_learning import DoubleDQN
 from Reinforcement_learning import Maze
 import numpy as np
 import matplotlib
@@ -46,7 +46,7 @@ def update():
 if __name__ == "__main__":
     # maze game
     env = Maze()
-    RL = DQN(env.n_actions, env.n_features,
+    RL = DoubleDQN(env.n_actions, env.n_features,
                       learning_rate=0.01,
                       reward_decay=0.9,
                       e_greedy=0.9,
