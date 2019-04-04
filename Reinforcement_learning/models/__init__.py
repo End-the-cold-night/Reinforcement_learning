@@ -7,3 +7,5 @@ from .DuelingDQN import *
 from .PolicyGradient import *
 from .AC import *
 from .A2C import *
+from .DDPG import *
+from .PPO import *
