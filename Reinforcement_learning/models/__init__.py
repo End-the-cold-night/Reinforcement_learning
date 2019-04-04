@@ -5,3 +5,5 @@ from .DQN import *
 from .PERDQN import *
 from .DuelingDQN import *
 from .PolicyGradient import *
+from .AC import *
+from .A2C import *
